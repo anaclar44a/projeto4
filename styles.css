@@ -44,7 +44,7 @@ body {
     margin: 1em 0 2em 0;
 }
 .container__caixa {
-    margin: 0 10em
+    margin: 0 6em;
 }
 .secundario__imagem {
     width: 80%;
@@ -58,7 +58,12 @@ body {
     font-size: 48px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
-}
-.descricao__texto {
     color: var(--cinza-secundario);
+}
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descricao {
+    padding: 2em;
 }
